@@ -1,0 +1,268 @@
+a{
+	text-decoration: none;
+	outline: none;
+  resize: none;
+}
+input, textarea, keygen, select, button {
+	margin: 0em;
+  font: normal normal normal 11px/normal '.SFNSText-Regular';
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+}
+.main{
+	background:#f4f4f4;
+}
+.main .album{
+	background:#fff;
+	border:1px solid #d7d7d7;
+	margin:20px 0 50px 0;
+	padding:10px;
+	padding-bottom:30px;
+}
+.main .album h2{
+	padding:0px;
+	margin:0px;
+	font-size:22px;
+	color:#5f5f5f;
+	margin-bottom:20px;
+
+}
+.main .album select{
+	width: 240px;
+    height: 30px;
+    line-height: 20px;
+    color: #383838;
+    border: 1px #d8d8d8 solid;
+    background-color: #f4f4f4;
+    padding-left: 12px;
+    display: inline-block;
+}
+.main .album a{
+	width: 87px;
+  	height: 28px;
+ 	line-height: 28px;
+  	text-align: center;
+  	border: 1px #d8d8d8 solid;
+  	background-color: #f4f4f4;
+  	color: #383838;
+  	display: inline-block;
+  	text-decoration: none;
+  	margin-left:20px;
+}
+.main .addAlbumBox{
+	position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 340px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #FFF;
+    padding-top: 25px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    border: 1px #ccc solid;
+    top:100px;
+    left:50%;
+    margin-left:-170px;
+    display: none;
+    z-index:10001;
+}
+.main .addAlbumBox .boxHeader{
+	position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 25px;
+  background-color: #F2F2F2;
+  color: #FFF;
+  line-height: 25px;
+  text-indent: 1em;
+  color: #333;
+}
+.main .addAlbumBox i{
+	display: block;
+   position: absolute;
+   top: 3px;
+   right: 5px;
+   font-style: normal;
+   cursor: pointer;
+   font-size: 16px;
+   color: #000;
+   width: 18px;
+   height: 18px;
+   line-height: 18px;
+   text-align: center;
+   font-family: "\5FAE\8F6F\96C5\9ED1";
+}
+.main .addAlbumBox i:hover{
+	color:#fff;
+	background:#FFA00A;
+}
+.main .addAlbumBox .content{
+	color:#555;
+	font: 12px/1.5 arial,"\5b8b\4f53","\5FAE\8F6F\96C5\9ED1";
+}
+.main .addAlbumBox .ui-submit{
+	margin-right:50px;
+}
+.main .addAlbumBox .content form ul{
+	list-style: none;
+}
+.main .addAlbumBox ul li{
+	display: list-item;
+	zoom: 1;
+  	line-height: 30px;
+  	margin: 5px 0;
+  	display: block;
+  	clear:both;
+  	  content: " ";
+}
+.main .addAlbumBox ul li .formTitle{
+	float: left;
+  width: 5em;
+  text-align: right;
+  padding-right: 5px;
+}
+.main .addAlbumBox ul li .formDiv{
+	float: left;
+  	width: 200px;
+}
+.main .addAlbumBox ul li .formDiv .inputText{
+	border: 1px solid #CCC;
+  border-radius: 2px;
+  height: 28px;
+  padding: 0 0 0 2px;
+  vertical-align: middle;
+  color: #808080;
+  -webkit-box-shadow: 0px 1px 1px 0px #EAEAEA inset;
+  -moz-box-shadow: 0px 1px 1px 0px #eaeaea inset;
+  box-shadow: 0px 1px 1px 0px #EAEAEA inset;
+  width: 170px;
+  outline: none;
+  resize: none;
+  font-size: 100%;
+}
+.main .addAlbumBox ul li .formDiv .inputTextarea{
+	border: 1px solid #CCC;
+  border-radius: 2px;
+  height: 56px;
+  padding: 0 0 0 2px;
+  vertical-align: middle;
+  color: #808080;
+  -webkit-box-shadow: 0px 1px 1px 0px #EAEAEA inset;
+  -moz-box-shadow: 0px 1px 1px 0px #eaeaea inset;
+  box-shadow: 0px 1px 1px 0px #EAEAEA inset;
+  width: 170px;
+  outline: none;
+  resize: none;
+}
+.main .addAlbumBox ul li .formDiv select{
+	border-radius: 5px;
+  	cursor: default;
+}
+.main .addAlbumBox ul li .formDiv select option{
+	 font-weight: normal;
+	  display: block;
+	  padding: 0px 2px 1px;
+	  white-space: pre;
+	  min-height: 1.2em;
+
+}
+.main .addAlbumBox .btn{
+	border-width: 1px;
+  border-style: solid;
+  border-color: #FF9B01;
+  background-color: #FFA00A;
+  color: #FFF;
+  border-radius: 2px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 15px;
+  font-size: 14px;
+}
+.main .addAlbumBox a:hover{
+	color:#fff;
+	background:#FFA00A;
+}
+.main .addAlbumBox .btn_cancel{
+	display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  overflow: hidden;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 15px;
+  font-size: 14px;
+  border-color: #D9D9D9;
+  background-color: #F2F2F2;
+  color: #333;
+}
+.main .photo{
+	background:#fff;
+	height:500px;
+	border: 1px #d7d7d7 solid;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.main .photo .queueList{
+	height:430px;
+	margin: 20px;
+  	border: 3px dashed #e6e6e6;
+  	padding:10px;
+}
+.main .photo .queueList .photo-up label{
+	display:block;
+	font-size:18px;
+	
+}
+.main .photo .queueList .photo-up .upload{
+	height:380px;
+	position:relative;
+}
+.main .photo .queueList .photo-up .upload .dz-message{
+	font-size:25px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-17.5px;
+	margin-left:-100px;
+}
+.main .photo .queueList .photo-up .upload .dz-preview .dz-image{
+	width:150px;
+	height:100px;
+}
+.main .photo .queueList .photo-up .upload .dz-preview .dz-image img{
+	width:100%;
+	height:100%;
+}
+.main .group-press{
+	/* width:130px; */
+	margin:0 auto;
+	margin-bottom:20px;
+	text-align:center;
+}
+.main .group-press input{
+	margin-right:100px;
+} 
+
+
+
+
+
+

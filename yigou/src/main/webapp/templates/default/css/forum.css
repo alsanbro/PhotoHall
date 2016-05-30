@@ -1,0 +1,159 @@
+.div1{
+	background-color: #393939;
+}
+.div1 img{
+	width:100%;
+}
+.div2{
+	margin-top:35px;
+	height:35px;
+	border-bottom:1px solid #666;
+	min-width:600px;
+	padding-bottom:20px;
+}
+.div2 a{
+	cursor:pointer;
+}
+.div2-a{
+	text-decoration:none;
+	font-size:24px;
+	color:#000;
+}
+.div2 .btn{
+	width:150px;
+	font-size:14px;
+	color:#fff;
+	background:#ea9f1d;
+	font-weight:600;
+}
+.div2-a:hover{
+	color:#06F;}
+
+.div3{
+	clear:both;
+	height:30px;
+	margin-top:20px;
+
+}
+.div3-left{
+	float:left;
+}
+.div3-left a.btn{
+	border-radius: 0;
+	background:#eaeaea;
+	border:none;
+}
+.div3-left a.selected{
+	background:#b3b3b3;
+	color:#fff;
+}
+.div3-left a:hover{
+	background:#b3b3b3;
+	color:#fff;
+}
+.select{
+	background:#b3b3b3;
+	color:#fff;
+}
+.div4 table{
+	border-bottom: 1px solid #ddd;
+}
+.div4 #tabel2,.div4 #tabel3{
+	display: none;
+}
+.div4 table thead{
+	background:#eaeaea;
+	border-top:2px solid #D8D7D7;
+}
+.div4 table a:hover{
+	text-decoration: underline;
+}
+.div4 table .icon{
+	width:3%;
+}
+.div4 table .common{
+	width:60%;
+	font-weight: 400;
+}
+.div4 table .by{
+	width:10%;
+	font-weight: 400;
+}
+.div4 table .num{
+	width:8%;
+	font-weight: 400;
+}
+.div4 table .time{
+	width:11%;
+	font-weight: 400;
+}
+.div4 table #hot,.div4 table #opc,.div4 table #my{
+	display: none;
+}
+.div7{
+	clear:both;
+	height:50px;
+	background-color:#FFF;
+	margin-bottom:20px;
+}
+.div7-img{
+	border-radius:50px;
+	width:48px;
+	height:48px;
+	background-color: #999;
+	vertical-align:middle;
+}
+.div7-left{
+	height:50px;
+	float:left;
+	vertical-align:middle;
+}
+.div7-left a{
+	height:48px;
+	display: inline-block;
+}
+.div7-title{
+	height:50px;
+	line-height: 50px;
+	margin-left:20px;
+	font-size:24px;
+	display: inline-block;
+}
+.div7-right{
+	float:right;
+	vertical-align:middle;}
+.div7-right-words{
+	width:100px;
+	text-align: center;
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:14px;
+}
+.div8{
+	clear:both;
+	height:70px;
+	padding-bottom:50px;
+	border-bottom:1px solid #9d9d9d;
+}
+.div9{
+	margin-top:30px;
+	width:100%;
+	text-align:center;
+}
+.div9 p{
+	text-align: center;
+	font-size:24px;
+	color:#000;
+}
+.div9-title{
+	margin-top:30px;
+	height:30px;
+	width:50%;
+	text-align:center;}
+.div9-content{
+	margin-bottom:40px;
+	margin-top:10px;
+	width:70%;
+	height:200px;
+	padding:10px;
+}

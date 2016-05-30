@@ -1,0 +1,47 @@
+p{
+	margin:0px;
+}
+.main .main-class{
+	padding:5px 0px;
+	margin-bottom:20px;
+}
+.main .main-class p{
+	font-size:16px;
+	height:55px;
+	line-height:55px;
+	padding:10px 0px;
+	border-bottom:1px solid #636363;
+}
+.main .main-class p a{
+	margin-right:10px;
+	color:#686868;
+}
+.main .main-class p a:hover{
+	color:red;
+}
+.main .main-class p a.btn{
+	color:#fff;
+	margin-right:0px;
+}
+.main .main-class div ul{
+	list-style: none;
+}
+.main .main-class div ul li{
+	float:left;
+	margin-right:20px;
+}
+.main .main-class div ul li a:hover{
+	color:red;
+}
+.main .thumbnail{
+	border-radius:5px;
+}
+.main .thumbnail .caption img{
+	width:30px;
+	height:30px;
+	margin-right:20px;
+}
+.main .thumbnail .caption span{
+	margin-right:20px;
+	font-size:16px;
+}

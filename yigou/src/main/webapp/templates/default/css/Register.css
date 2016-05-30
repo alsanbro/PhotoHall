@@ -1,0 +1,180 @@
+/**{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}*/
+#BG{
+    background-color: #fff;
+}
+#register{
+   /* width: 960px;
+    margin: 0 auto;*/
+    background-color: rgba(127,127,127,0.15);
+    color:rgba(120,120,120,0.8)
+}
+#register p{
+    line-height: 60px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+#register .RegTitle{
+    /*width: 100%;*/
+    height: 60px;
+    line-height: 60px;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    /*text-indent: 6px;*/
+    /*border-left: 3px solid #59AFE4;*/
+    color: #616161;
+    border-bottom: 1px solid #ccc;
+}
+#register .RegTitle span{
+    float:left;
+}
+#register .RegTitle a{
+    float: right;
+    margin-left: 10px;
+    margin-right: 2px;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+label{
+    float: left;
+    width: 110px;
+    height: 35px;
+    font-size: 22px;
+    padding-top: 2px ;
+}
+.box{
+    height: 70px;
+    padding-left: 150px;
+}
+.box .info{
+    float: left;
+    width: 236px;
+    height: 40px;
+}
+.box .error{
+    color: #F66;
+    background: transparent url("//6.url.cn/zc/chs/img/pwd_sprite.png?v=10078") no-repeat scroll 0px -342px;
+    padding-left: 16px;
+}
+.box .new_txt{
+    border-radius: 4px;
+    width: 284px;
+    padding: 8px;
+    border: medium none;
+    line-height: 18px;
+    font-size: 14px;
+    background-color: #ccc;
+}
+.box .new_txt:focus{
+    background-color: #fff;
+}
+.box .new_txt1{
+    height: 29px;
+    width: 150px;
+    border-radius: 4px;
+    border:0;
+    font-size: 16px;
+    float: left;
+}
+.box .new_txt2{
+    height: 29px;
+    width: 300px;
+    border-radius: 4px;
+    border:0;
+    font-size: 16px;
+    float: left;
+}
+.box .new_txt3{
+    height: 29px;
+    width: 200px;
+    border-radius: 4px;
+    border:0;
+    font-size: 16px;
+    float: left;
+}
+.box .ipt_box{
+    float: left;
+    width: 306px;
+    height: 50px;
+    font-size: 16px;
+    position: relative;
+}
+.box .ipt_box .sex{
+    width: 20px;
+}
+.box span{
+    float: left;
+    color:red;
+    line-height: 32px;
+}
+.box #PN{
+    float: left;
+    width: 500px;
+}
+.box #PN1{
+    float: left;
+    width: 600px;
+}
+.box #PN>p{
+    margin-left: 0px;
+    font-size: 14px;
+    color: red;
+    float: left;
+}
+.box #PN1 #BT button{
+    background: #69B946 none repeat scroll 0% 0%;
+    color: #FFF;
+    display: inline-block;
+    font: 16px/33px "微软雅黑","宋体";
+    height: 31px;
+    text-align: center;
+    margin-left: 40px;
+    width: 130px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+}
+.box_1{
+    margin-top: 100px;
+}
+.box_9{
+    height: 150px;
+}
+.ipt_box select{
+    width: 100px;
+    height: 29px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #fff;
+    padding-right: 14px;
+    border: 0px;
+    border-radius: 6px;
+    margin: 0 5px;
+
+}
+.submit{
+    height: 50px;
+    width: 100%;
+}
+.submit #submit{
+    background: #69B946 none repeat scroll 0% 0%;
+    display: inline-block;
+    height: 52px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    font: 22px/52px "微软雅黑";
+    color: #FFF;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    margin-left: 380px;
+}

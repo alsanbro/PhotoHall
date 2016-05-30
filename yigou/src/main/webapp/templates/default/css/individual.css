@@ -1,0 +1,440 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+a{
+	outline:none;
+	cursor: pointer;
+}
+.main .userInfoBox{
+	width:100%;
+	height:200px;
+	position:relative;
+	border:1px solid #d9d9d9;
+	margin-top: 200px;
+	z-index: 1000;
+	border-bottom: none;
+}
+.main .userInfoBox .userInfoImageWp{
+	z-index: 1001;
+	position: absolute;
+	left:80px;
+	top:-100px;
+}
+.main .userInfoBox .userInfoImageWp .userInfoImage{
+	background:#fff;
+	padding:3px;
+	border:1px solid #e3e6e8;
+	margin-bottom:5px; 
+	position:relative;
+}
+.main .userInfoBox .userInfoImageWp .userInfoImage a{
+	position: absolute;
+	right:10px;
+	bottom:10px;
+	border:1px solid #e3e6e8;
+	padding:3px 8px;
+	color:#fff;
+	z-index: 1002;
+	display:none;
+}
+.main .userInfoBox .userInfoImageWp .userInfoImage:hover a{
+	display:block;
+}
+.main .userInfoBox .userInfoImageWp .userInfoImage a:hover{
+	background:#ffa00a;
+}
+.main .userInfoBox .userInfoImageWp .userActive a{
+	color:#888;
+	border:1px solid #e3e6e8;
+	padding:3px 10px ;
+	font-size:12px;
+	background:	#f2f2f2;
+	margin-right:5px;
+}
+.main .userInfoBox .userInfoImageWp .userActive a span{
+	margin-right:5px;
+	color:#ffa00a;
+}
+.main .userInfoBox .userInfoImageWp .userActive a:hover{
+	color:#fff;
+	background:#ffa00a;
+}
+.main .userInfoBox .userInfoImageWp .userActive a:hover span{
+	color:#fff;
+}
+.main .userInfoBox .userInfoPro{
+	margin-left:250px;
+}
+.main .userInfoBox .userInfoPro h1{
+	font-size: 20px;
+	margin-top:10px;
+}
+.main .mainNav{
+	height:49px;
+	padding-left:100px;
+	background:#fafafa;
+	clear:both;
+	border:1px solid #d9d9d9;
+	border-top:0;
+	margin-bottom:0px;
+}
+.main .mainNav li{
+	float:left;
+	height:49px;
+	text-align: center;
+	line-height: 49px;
+	border:1px solid #d9d9d9;
+	border-right: none;
+	background:#f2f2f2;
+	font-size:16px;
+	/*border-bottom:transparent;*/
+}
+.main .mainNav li:hover{
+	background:#fff;
+}
+.main .mainNav li a{
+	border:1px #fff solid;
+	display:inline-block;
+	height:47px;
+	display: block;
+}
+/*.main .userInfo{
+	padding:30px;
+	border:1px solid #9d9d9d;
+	margin-bottom: 50px;
+	border-top:transparent;
+}*/
+.main .userInfo .userInfoEdit .userInfoTitle{
+	margin-top:10px;
+	border-top:1px solid #d9d9d9;
+	position:relative;
+}
+.main .userInfo .userInfoEdit .userInfoTitle h1{
+	display: inline-block;
+	font-size:16px;
+	padding-right:5px;
+	color:#333;
+	background:#fff;
+	position:absolute;
+	top:-10px;
+	left:0;
+}
+.main .userInfo .userInfoEdit .userInfoTitle a{
+	position: absolute;
+	top:-10px;
+	right:0px;
+	border:1px solid #e5e5e5;
+	padding:0 0.75em;
+	color:#535353;
+	background:#f6f6f6;
+	height:20px;
+	line-height: 20px;
+	border-radius: 10px;
+	font-size:14px;
+}
+.main .userInfo .userInfoEdit .form{
+	margin-top:30px;
+	font-size:14px;
+}
+.main .userInfo .userInfoEdit .form li{
+	margin-bottom: 20px;
+	clear:both;
+}
+.main .userInfo .userInfoEdit .form li label{
+	width:80px;
+	color:#898989;
+	margin-right:50px;
+	display: inline-block;
+}
+.main .userInfo .userInfoEdit .form li .formCnt{
+	display: inline-block;
+	width:600px;
+	color:#333;
+	margin-right:10px;
+}
+.main .userInfo .userInfoEdit .form li .formCnt .infoShow{
+	display:block;
+}
+.main .userInfo .userInfoEdit .form li .formCnt .infoHidden{
+	display: none;
+}
+.main .userInfo .userInfoEdit .form li .formCnt .infoHidden input{
+	height:30px;
+	padding:3px 5px;
+	width:200px;
+}.main .userInfo .userInfoEdit .form li .formCnt .infoHidden input.sex{
+	width:15px;
+	height:15px;
+}
+.main .userInfo .userInfoEdit .form li .infoMsg{
+	display: inline-block;
+}
+.main .userInfo .userInfoEdit .form li .infoMsgShow{
+	display:block;
+}
+.main .userInfo .userInfoEdit .form li .infoMsgHidden{
+	display:none;
+}
+
+
+
+.main .mainContainer{
+	padding:30px;
+	border:1px solid #d9d9d9;
+	border-top:transparent;
+	clear:both;
+}
+.main .mainContainer .photography a.newpost{
+	width: 94px;
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+	text-align: center;
+	display: block;
+	background-color: #ff9906;
+	font-size:12px;
+}
+.main .mainContainer .photography .imagesBox{
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 1px #e6e6e6 solid;
+	clear:both;
+	height:auto;
+}
+.main .mainContainer .photography .imagesBox li{
+	/*float: left;*/
+	display: inline-block;
+	width: 240px;
+	height: 240px;
+	margin: 0 2px 2px 0;
+	position: relative;
+}
+.main .mainContainer .bbs .titleArea{
+	position: relative;
+}
+.main .mainContainer .bbs .titleArea h1{
+	font-size:18px;
+	color:#4d4d4d;
+	font-weight: 300;
+	display: inline-block;
+}
+.main .mainContainer .bbs .titleArea p{
+	color:#808080;
+	font-size:14px;
+	display: inline-block;
+	position:absolute;
+	right:0px;
+}
+.main .mainContainer .bbs .titleArea p span{
+	margin:0 5px;
+	font-weight:700;
+	font-size:22px;
+	font-style: italic;
+	font-family: Constantia,Georgia;
+}
+.main .mainContainer .bbs .textArea{
+	margin-top:20px;
+	clear:both;
+	position:relative;
+}
+.main .mainContainer .bbs .textArea textarea{
+	width:100%;
+	height:100px;
+	padding: 10px;
+	font-family: "Tahoma","SimSun";
+	font-size: 14px;
+	color:#333;
+	clear:both;
+	border-color: #d9d9d9;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.bbs .releaseInfo{
+	width:150px;
+	height:80px;
+	font-size:20px;
+	color:#fff;
+	text-align:center;
+	line-height: 80px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	/*margin-top:40px;*/
+	margin-left:-75px;
+	background:green;
+	display: none;
+
+}
+.main .mainContainer .bbs .textArea a{
+	color:#333;
+	background:#f2f2f2;
+	border:1px solid #c6c6c6;
+	width:73px;
+	text-align: center;
+	font-size:14px;
+	border-radius: 2px;
+	display: block;
+	height:30px;
+	line-height: 30px;
+	margin-top:10px;
+	float:right;
+	display: inline-block;
+}
+
+.main .mainContainer .bbs .listMsgBox{
+	margin-top:50px;
+}
+.main .mainContainer .bbs .listMsgBox h1{
+	font-size:18px;
+	color:#4d4d4d;
+	font-weight: 300;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed{
+	border-bottom:1px solid #d9d9d9;
+	margin:0px 30px;
+	padding:30px 0;
+	position: relative;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-face{
+	/*margin-right:20px;*/
+	display: inline-block;
+	width:10%;
+	position:absolute;
+	top:30px;
+	left:0;
+
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-face a{
+	display: inline-block;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-face a img{
+	width:80px;
+	height:100px;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail{
+	font-size:16px;
+	color:#333;
+	display: inline-block;
+	width:89%;
+	margin-left:10%;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-text,.Tw-func{
+	margin-top:20px;
+	font-size:14px;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-func .Tw-time{
+	display: inline-block;
+	color:#9d9d9d;
+	font-weight: 300;
+}
+.bbs .listMsgBox .Tw-time span{
+	margin-right:10px;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-func .Tw-handle{
+	float:right;
+	font-weight: 300;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-func .Tw-handle a{
+	color:#0a8cd2;
+	outline: none;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-func .Tw-handle a:hover{
+	text-decoration: underline;
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-func .Tw-handle .feed-delete{
+	display:none
+}
+.main .mainContainer .bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-expand{
+	clear:both;
+	padding:10px 20px;
+	background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-top:10px;
+    position: relative;
+    display: none;
+}
+.bbs .listMsgBox .Tw-feed-list .Tw-feed .Tw-feed-detail .Tw-expand .Tw-arrow{
+	/*clear:both;*/
+	position: absolute;
+	z-index: 999;
+	right:22px;
+	top:-5px;
+	background-color: #fefefe;
+	border-top:1px solid #ddd; 
+	border-left:1px solid #ddd;
+	width: 10px;
+	height: 10px;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);		
+	-webkit-transform: rotate(45deg);	
+	-o-transform: rotate(45deg);		
+	-moz-transform: rotate(45deg);	
+}
+.bbs .listMsgBox .Tw-expand .F-comment textarea{
+	width:100%;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border-color: #d9d9d9;
+	border-style: solid;
+	border-width: 1px;
+	padding:5px 10px;
+}
+.bbs .listMsgBox .Tw-expand .F-comment .Tw-btn-op{
+	text-align: right;
+	margin-bottom:0px;
+}
+.bbs .listMsgBox .Tw-expand .F-comment .Tw-btn-op a{
+	border:1px solid #d9d9d9;
+	background:#f2f2f2;
+	border-radius: 4px;
+	padding:5px 10px;
+	color:#808080;
+	display:inline-block;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist{
+	font-size:12px;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl{
+	padding:18px 0;
+	border-top:1px solid #c5d5da;
+	margin:-1px 0 0;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dt{
+	width: 30px;
+	height:30px;
+	float:left;
+	overflow: hidden;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dt img{
+	width:30px;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd{
+	margin-left:40px;
+	color:#808080;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd a{
+	color:#0a8cd2;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd a:hover{
+	text-decoration: underline;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd .Tw-comment-info{
+	text-align: right;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd .Tw-repeatl{
+	background-color:red;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd .Tw-repeatl textarea{
+	height:60px;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd .Tw-repeatl p.Tw-btn-op a{
+	padding:2px 5px;
+}
+.bbs .listMsgBox .Tw-expand .Tw-commentlist dl dd span.Tw-time{
+	margin-left:20px;
+}

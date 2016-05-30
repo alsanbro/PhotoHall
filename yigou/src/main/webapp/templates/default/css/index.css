@@ -1,0 +1,263 @@
+
+/*閫氱敤瀛椾綋閫夋嫨寮�濮�*/
+body {
+	font-family: "Helvetica Neue", Helvetica,Arial, "Microsoft YaheiUI","Microsoft YaHei",SimHei,"\5B8B\4F53",sans-serif;
+	color: #666;
+} 
+/*閫氱敤瀛椾綋閫夋嫨缁撴潫*/
+
+
+/*鍩烘湰鏍煎紡寮�濮�***************************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}
+ul{
+	list-style:none;
+}
+img,a img {
+	border:0px;
+	text-decoration:none;
+}
+a{
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.auto {
+	width:960px;
+	margin:0 auto;
+}
+/*鍩烘湰鏍煎紡缁撴潫***************************/
+
+
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+.body {
+    padding-top: 80px;
+    background-color: #F3F4F5;
+}
+.body .row .col-md-7 h1{
+    font-size: 20px;
+    color: #4A7D99;
+    margin-bottom: 10px;
+}
+.body .row .col-md-7 .row .col-md-4 {
+    padding-right: 5px;
+    padding-left: 9px;
+    
+}
+.body .row .col-md-7 .row .col-md-4 .thumbnail {
+    padding: 0px;
+    border:0px;
+}
+.body .row .col-md-7 .row .col-md-4 .thumbnail h3 {
+    background-color: #9E9FA0;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    
+}
+.body .row .col-md-7 .row .col-md-4 a {
+    text-decoration: none;
+}
+.body .row .col-md-5 h1 {
+    font-size: 20px;
+    color: #4A7D99;
+    margin-bottom: 10px;
+}
+.body_title {
+    
+}
+.body .row .col-md-5 .thumbnail {
+    height: 35.5%;
+}
+.body_bottom {
+    margin-top: 20px;
+}
+.body_bottom h1 {
+    font-size: 24px;
+    color: #4A7D99;
+    margin-bottom: 10px;
+}
+.main {
+    margin-bottom:50px;
+}
+.main .carousel img{
+	width:100%;
+}
+.main .carousel .carousel-caption{
+	font-size:16px;
+}
+.main .container{
+    padding:0;
+}
+.main .classNav{
+    margin-top:15px;
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #000;
+}
+.main .classNav h2{
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+.main .classNav ul{
+    float:right;
+}
+.main .classNav ul li{
+    float:left;
+    color: #333333;
+    font-size: 14px;
+    margin-right:10px;
+}
+.main .classNav ul li.last{
+    margin-right:0px;
+}
+.classNav ul li a{
+    margin-right:9px;
+}
+.classNav ul li a.last{
+    margin-right:0px;
+}
+.classBox .imgList .col-md-2{
+     /*width:181px;*/
+     /*float:left;*/
+     /*margin-right:14px;*/
+    margin-bottom:30px;
+    position: relative;
+    /*padding:0 10px 10px 0;*/
+}
+.classBox .col-md-2.last{
+    margin-right: 0px;
+}
+.classBox .col-md-2 img{
+    width:100%;
+    height:190px;
+}
+.classBox .col-md-2 .caption{
+    text-align: center;
+    height:0px;
+    width:85%;
+    background:rgba(0,0,0,0.7);
+    position:absolute;
+    bottom:0px;
+    left:15px;
+    color:#fff;
+    font-size:14px;
+    padding:0 15px;
+    display:none;
+}
+.classBox .col-md-2 .caption h4{
+    display: inline-block;
+    margin:80px 0 10px 0;
+}
+.classBox .classBoxLeft{
+    width:78%;
+    float:left;
+}
+.classBox .classBoxRight{
+    width:20%;
+    float:right;
+}
+.classBox .classBoxLeft .classNav,.classBoxRight .classNav{
+    border-bottom:1px solid #000;
+    padding-bottom:10px;
+}
+.classBox .classBoxLeft .contentList,.classBoxRight .contentList{
+    margin-top:20px;
+}
+.classBox .classBoxLeft .contentList .contentList-item{
+    width:31.9%;
+    margin-right:15px;
+    margin-bottom:15px;
+    display: inline-block;
+}
+.classBox .classBoxLeft .contentList .last{
+    margin-right: 0px;
+}
+.classBox .classBoxLeft .contentList .contentList-item img{
+    width:100%;
+    height:180px;
+}
+/*.classBox .classBoxLeft .contentList .contentList-item img:hover{
+    width:101%;
+    height:101%;
+}*/
+
+.classBox .classBoxLeft .contentList .contentList-item .contentList-item-caption{
+    margin-top:10px;
+}
+.classBox .classBoxLeft .contentList .contentList-item .contentList-item-caption h2{
+    font-size:16px;
+    margin-bottom:10px;
+    color:#000;
+    font-weight: 600;
+}
+.classBox .classBoxLeft .contentList .contentList-item .contentList-item-caption p{
+    display: inline-block;
+    margin-right:20px;
+}
+.classBox .classBoxRight .contentList ol{
+    list-style-type:decimal-leading-zero;
+}
+.classBox .classBoxRight .contentList ol li{
+    font-size: 14px;
+    color:#666;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+.classBox .classBoxRight .contentList ol li a{
+    color:#666;
+    overflow: hidden;
+}
+.contentList ul li{
+    width:320px;
+    display: inline-block;
+    padding:15px;
+    border:1px solid #9d9d9d;
+    margin-bottom:30px;
+}
+.contentList ul li.middle{
+    margin:0px 101px;
+}
+.contentList ul li .img-icon{
+    width:80px;
+    height:100px;
+    display: inline-block;
+    float: left;
+    /*position: absolute;
+    top:15px;*/
+}
+.contentList ul li .img-icon img{
+    width:100%;
+    height:100%;
+}
+.contentList ul li dl{
+    display: inline-block;
+    margin-left:20px;
+    float: left;
+}
+.contentList ul li dl dt a{
+    color: #646464;
+    font-size: 18px;
+}
+.contentList ul li dl dt a span{
+    color:red;
+    font-size:14px;
+    font-weight:400;
+}
+.contentList ul li dl dd{
+    margin-top:20px;
+}

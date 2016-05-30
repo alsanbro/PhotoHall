@@ -1,0 +1,119 @@
+
+*{
+	padding:0px;
+	margin:0px;
+	list-style: none;
+}
+.main .main-top p{
+	margin:20px 0;
+	font-size:16px;
+	color:#9d9d9d;
+}
+.main .main-top p span{
+	color:red;
+}
+.main .main-top p a{
+	margin-left:50px;
+}
+.main .main-top p a:hover{
+	text-decoration:underline;
+}
+.disabled{
+	display: none;
+}
+#G-lightbox-mask{
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height:100%;
+	background:#000;
+	opacity:0.5;
+	z-index:1000;
+	display: none;
+}
+/*鍖归厤IE6娴忚鍣�*/
+*html #G-lightbox-mask{
+	position:absolute;
+}
+*html #G-lightbox-popup{
+	position:absolute;
+}
+#G-lightbox-popup{
+	position:fixed;
+	width:400px;
+	/*left:50%;
+	margin-left:-200px;*/
+	/*top:0;*/
+	/*margin-top:-150px;*/
+	z-index: 10000001;
+	display: none;
+}
+#G-lightbox-popup .lightbox-pic-view{
+	position:relative;
+	border:5px solid #fff;
+	border-radius:3px;
+	overflow:hidden;
+	background:#fff url(../../../upload/icon/loading.gif) no-repeat center center;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-btn{
+	width:40%;
+	height:100%;
+	position:absolute;
+	top:0;
+	background:url(../../../upload/icon/transparent.png) repeat left top;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-prev-btn{
+	left:0;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-next-btn{
+	right:0;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-prev-btn-show{
+	background:url(../../../upload/icon/prev.png) no-repeat left center;
+	cursor:pointer;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-next-btn-show{
+	background:url(../../../upload/icon/next.png) no-repeat right center;
+	cursor:pointer;
+}
+#G-lightbox-popup .lightbox-pic-view .lightbox-image{
+	display:block;
+}
+#G-lightbox-popup .lightbox-pic-caption{
+	position: relative;
+	background:rgba(0,0,0,0.5);
+	margin:0 0px;
+	margin-top:-75px;
+}
+#G-lightbox-popup .lightbox-pic-caption .lightbox-caption-area{
+	color:#fff;
+	padding:10px 5px;
+}
+#G-lightbox-popup .lightbox-pic-caption .lightbox-caption-area .lightbox-pic-desc{
+	font-size:18px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#G-lightbox-popup .lightbox-pic-caption .lightbox-caption-area .lightbox-of-index{
+	color:#fff;
+	font-weight:200;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+#G-lightbox-popup .lightbox-pic-caption .lightbox-close-btn{
+	position:absolute;
+	width:27px;
+	height:27px;
+	background:url(../../../upload/icon/close.png) no-repeat right center;
+	right:5px;
+	top:50%;
+	margin-top:-13.5px;
+	cursor: pointer;
+}
+/*#G-lightbox-popup .lightbox-pic-caption .lightbox-close-btn:hover{
+	width: 30px;
+	height:30px;
+	top:50%;
+	margin-top:-15px;
+}*/

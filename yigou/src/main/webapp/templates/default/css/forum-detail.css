@@ -1,0 +1,155 @@
+.main #table0{
+	width:100%;
+}
+.main #table0 tr{
+	width:100%;
+	height:40px;
+	padding:10px 0;
+	background-color: #f8f8f8;	
+}
+.main #table0 tr .head{
+	font: 700 16px 'Microsoft Yahei','Hei',Tahoma,'SimHei',sans-serif;
+	color:#369;
+	float: left;
+	margin:0;
+	text-indent: 20px;
+}
+.main #table0 tr .info{
+	float: right;
+	color:#999;
+	font-weight: 300;
+	margin-right:10px;
+}
+.main #table0 tr .info .look,.main #table0 tr .info .msg{
+	color:red;
+}
+
+
+.main #table1{
+	margin-bottom: 20px;
+	width:100%;
+}
+.main #table1 tbody tr .left{
+	border-top:4px solid #C2D5E3;
+	border-bottom:4px solid #C2D5E3;
+	width:15%;
+	background: #E6E3E3;
+	padding:0px;
+	position: relative;
+}
+.main #table1 tbody tr .right{
+	border-top:4px solid #E5EDF2;
+	width:85%;
+	padding:0 20px;
+	padding-right:0px;
+	border-bottom:4px solid #E5EDF2;
+}
+.main #table1 tbody tr .left .left-content{
+	position: absolute;
+	top:0px;
+}
+.main #table1 tbody tr .left .top{
+	padding:10px 0;
+	border-bottom: 1px dashed #ededed;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding-left:15px;
+}
+.main #table1 tbody tr .left .img{
+	padding:0 15px 10px 15px;
+}
+.main #table1 tbody tr .left .img img{
+	width:146px;
+	height:173px;
+	border:4px solid white;
+	box-shadow: 0 2px 2px;
+}
+.main #table1 tbody tr .left .level{
+	padding:0 15px 10px 15px;
+}
+.main #table1 tbody tr .left .level .progress{
+	height:10px;
+	margin-bottom: 10px;
+}
+.main #table1 tbody tr .left .info span{
+	margin-left:30px;
+	color:#369;
+}
+.main #table1 tbody tr .left .msg-up{
+	margin-top: 30px;
+}
+.main #table1 tbody tr .left .msg-up div{
+	display: inline-block;
+	margin-right: 10px;
+}
+.main #table1 tbody tr .left .msg-up div a:hover{
+	text-decoration: underline;
+}
+.main #table1 tbody tr .left .msg-up span.up{
+	color:#F9BF14;
+}
+.main #table1 tbody tr .left .msg-up span.msg{
+	color:#1EF51E;
+}
+.main #table1 tbody tr .right .top{
+    overflow: hidden;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ededed;
+}
+.main #table1 tbody tr .right .top a{
+	color: #fc6d02;
+	font-weight:600;
+}
+.main #table1 tbody tr .right .top a:hover{
+	color:blue;
+}
+.main #table1 tbody tr .right .content{
+	min-height: 378px;
+	overflow-y:auto;
+}
+.main #table1 tbody tr .right .content .editInfo{
+	text-align: center;
+	font-size:12px;
+	color:#999;
+	margin-bottom: 30px;
+}
+.main #table1 tbody tr .right .content p a{
+	color:red;
+	font-weight: 800;
+	font-size:20px;
+}
+.main #table1 tbody tr .right .content p a:hover{
+	text-decoration: underline;
+	color:blue;
+}
+.main #table1 tbody tr .right .content .cont-head{
+	color:rgb(68, 68, 68);
+	font-size: 15px;
+	font-weight: 700;
+}
+.main #table1 tbody tr .right .content blockquote{
+	background:#f9f9f9;
+}
+.main #table1 tbody tr .right .content .cont-p{
+	color:rgb(68, 68, 68);
+	font-size: 15px;
+	text-indent: 20px;
+}
+.main #table1 tbody tr .right .content img{
+	margin-bottom:20px;
+	display: block;
+}
+.main #table1 tbody tr .right .bottom{
+    padding: 10px 0;
+    border-top: 1px dashed #ededed;
+}
+.main #table1 tbody tr .right .bottom .icon{
+	color:#F18B07;
+}
+.main #table1 tbody tr .right .bottom a{
+	margin-right: 50px;
+}
+.main #table1 tbody tr .right .bottom a:hover{
+	text-decoration: underline;
+}
